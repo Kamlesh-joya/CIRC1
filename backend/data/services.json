@@ -1,0 +1,1882 @@
+[
+  {
+    "id": "CC-001",
+    "category": "Laptop",
+    "name": "Check-up & fault diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose hardware/software fault; repair quoted separately",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-002",
+    "category": "Laptop",
+    "name": "Basic cleaning & check-up",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "External cleaning, vents and health checks; no teardown",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-003",
+    "category": "Laptop",
+    "name": "Deep internal cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Fan and heatsink cleaning; opening subject to model",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-004",
+    "category": "Laptop",
+    "name": "Thermal paste replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean old compound, apply paste and test temperatures",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-005",
+    "category": "Laptop",
+    "name": "Cooling fan replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit compatible fan and verify operation",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-006",
+    "category": "Laptop",
+    "name": "Screen replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Match panel type, resolution and connector",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-007",
+    "category": "Laptop",
+    "name": "Keyboard replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Confirm layout and integrated top-case requirements",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-008",
+    "category": "Laptop",
+    "name": "Battery replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Confirm model, battery rating and warranty",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-009",
+    "category": "Laptop",
+    "name": "Charging jack repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose connector and charging path",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-010",
+    "category": "Laptop",
+    "name": "Motherboard repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Specialist board diagnosis; feasibility quote",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-011",
+    "category": "Laptop",
+    "name": "Hinge & body repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess hinge mounts and chassis damage",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-012",
+    "category": "Laptop",
+    "name": "RAM upgrade",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Check compatibility and test memory",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-013",
+    "category": "Laptop",
+    "name": "SSD upgrade & data migration",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit drive; migration with customer consent",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-014",
+    "category": "Laptop",
+    "name": "OS installation & drivers",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Customer licence; backup separately approved",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-015",
+    "category": "Laptop",
+    "name": "Malware cleanup & optimisation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Scan, remove malware and review startup items",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-016",
+    "category": "Laptop",
+    "name": "Data recovery assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "No recovery guarantee; separate approved recovery quote",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-017",
+    "category": "Laptop",
+    "name": "Liquid-damage assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect corrosion; repair only after diagnosis",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-018",
+    "category": "Laptop",
+    "name": "Trackpad or port repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Identify failed module or connector; model-based quote",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-019",
+    "category": "Desktop PC",
+    "name": "Check-up & fault diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Find boot, power or performance fault",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-020",
+    "category": "Desktop PC",
+    "name": "Deep cleaning & thermal service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean chassis, fans and heatsink; inspect cooling",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-021",
+    "category": "Desktop PC",
+    "name": "OS installation & drivers",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Customer licence; agree backup scope",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-022",
+    "category": "Desktop PC",
+    "name": "RAM upgrade",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Compatibility check, fitting and memory test",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-023",
+    "category": "Desktop PC",
+    "name": "SSD upgrade & migration",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit storage and migrate approved data",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-024",
+    "category": "Desktop PC",
+    "name": "Power supply replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Size compatible PSU and test load",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-025",
+    "category": "Desktop PC",
+    "name": "Motherboard repair or replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose board; approve repair versus replacement",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-026",
+    "category": "Desktop PC",
+    "name": "Graphics card installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Check PSU, case fit and drivers",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-027",
+    "category": "Desktop PC",
+    "name": "CPU & cooler installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Check socket, firmware and cooling compatibility",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-028",
+    "category": "Desktop PC",
+    "name": "Custom PC assembly",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Assemble supplied/quoted parts and stability test",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-029",
+    "category": "Desktop PC",
+    "name": "Boot & malware troubleshooting",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Resolve OS startup or unwanted software",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-030",
+    "category": "Desktop PC",
+    "name": "Monitor fault assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect display, cable and power; quote repair",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-031",
+    "category": "AC",
+    "name": "AC check-up",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose cooling, noise or power fault",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-032",
+    "category": "AC",
+    "name": "Split AC basic service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Filter cleaning and accessible coil/drain checks",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-033",
+    "category": "AC",
+    "name": "Split AC deep cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Protected wet cleaning of indoor coil and blower",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-034",
+    "category": "AC",
+    "name": "Window AC deep cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean accessible coils, filter and drain tray",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-035",
+    "category": "AC",
+    "name": "Water leakage repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect drain, alignment and blockage",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-036",
+    "category": "AC",
+    "name": "Refrigerant leak test & repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Locate leak and quote corrective work",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-037",
+    "category": "AC",
+    "name": "Refrigerant recharge",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "After leak checks; gas type and quantity specified",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-038",
+    "category": "AC",
+    "name": "PCB repair or replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose control board; model-based quote",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-039",
+    "category": "AC",
+    "name": "Fan motor replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Indoor/outdoor motor identified in quotation",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-040",
+    "category": "AC",
+    "name": "Capacitor replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Test and fit correctly rated component",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-041",
+    "category": "AC",
+    "name": "Compressor replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Specialist sealed-system work; quote total scope",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-042",
+    "category": "AC",
+    "name": "Split AC installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Define standard pipe length and excluded civil work",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-043",
+    "category": "AC",
+    "name": "Window AC installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit unit; bracket and civil work separately scoped",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-044",
+    "category": "AC",
+    "name": "AC uninstallation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Safe removal; refrigerant handling where applicable",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-045",
+    "category": "AC",
+    "name": "AC relocation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Removal and refitting; transport/materials separately scoped",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-046",
+    "category": "Refrigerator",
+    "name": "Refrigerator check-up",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose cooling, noise or power issue",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-047",
+    "category": "Refrigerator",
+    "name": "Preventive cleaning & check-up",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Accessible condenser cleaning and performance checks",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-048",
+    "category": "Refrigerator",
+    "name": "Door gasket replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Match seal and verify door closure",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-049",
+    "category": "Refrigerator",
+    "name": "Defrost system repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose heater, timer or sensor fault",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-050",
+    "category": "Refrigerator",
+    "name": "Thermostat or sensor replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Test temperature controls and fit compatible part",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-051",
+    "category": "Refrigerator",
+    "name": "Fan motor replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Identify condenser/evaporator fan fault",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-052",
+    "category": "Refrigerator",
+    "name": "Drain blockage repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Clear drain and inspect water leakage",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-053",
+    "category": "Refrigerator",
+    "name": "PCB repair or replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Control-board diagnosis and quote",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-054",
+    "category": "Refrigerator",
+    "name": "Refrigerant leak repair & recharge",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Leak repair, evacuation and specified refrigerant",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-055",
+    "category": "Refrigerator",
+    "name": "Compressor replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Quote compressor, materials and labour together",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-056",
+    "category": "Refrigerator",
+    "name": "Relay or overload replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Test start circuit and protection components",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-057",
+    "category": "Refrigerator",
+    "name": "Ice maker or dispenser repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "For compatible models; parts subject to availability",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-058",
+    "category": "Washing Machine",
+    "name": "Washing machine check-up",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose wash, spin, drain or power issue",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-059",
+    "category": "Washing Machine",
+    "name": "Top-load deep cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Tub cleaning where model permits; define dismantling scope",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-060",
+    "category": "Washing Machine",
+    "name": "Front-load deep cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Drum, gasket and filter cleaning; model exclusions apply",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-061",
+    "category": "Washing Machine",
+    "name": "Installation & levelling",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Connect existing inlet/drain and verify operation",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-062",
+    "category": "Washing Machine",
+    "name": "Uninstallation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Disconnect and prepare appliance for movement",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-063",
+    "category": "Washing Machine",
+    "name": "Drain pump replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose and replace compatible pump",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-064",
+    "category": "Washing Machine",
+    "name": "Inlet valve replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Test filling fault and valve operation",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-065",
+    "category": "Washing Machine",
+    "name": "Door lock or lid switch repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose interlock fault; replace approved part",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-066",
+    "category": "Washing Machine",
+    "name": "Motor or belt repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Identify drive fault and quote parts",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-067",
+    "category": "Washing Machine",
+    "name": "PCB repair or replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Control-board diagnosis and compatibility check",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-068",
+    "category": "Washing Machine",
+    "name": "Bearing or drum repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Workshop-level assessment and quote",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-069",
+    "category": "Washing Machine",
+    "name": "Leakage repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect hose, seal or gasket; replace as approved",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-070",
+    "category": "Air Cooler",
+    "name": "Seasonal cleaning & check-up",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean tank and accessible surfaces; functional check",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-071",
+    "category": "Air Cooler",
+    "name": "Cooling pad replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Confirm pad size, type and quantity",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-072",
+    "category": "Air Cooler",
+    "name": "Water pump replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit compatible pump and check flow",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-073",
+    "category": "Air Cooler",
+    "name": "Fan motor repair or replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess motor and quote repair/replacement",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-074",
+    "category": "Air Cooler",
+    "name": "Capacitor replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Test and replace correct rating",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-075",
+    "category": "Air Cooler",
+    "name": "Water distribution repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Clear distributor tubes and inspect flow",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-076",
+    "category": "Air Cooler",
+    "name": "Float valve or leakage repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess water inlet and tank connections",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-077",
+    "category": "Air Cooler",
+    "name": "Switch or control-board repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Mechanical or electronic control diagnosis",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-078",
+    "category": "Air Cooler",
+    "name": "Fan blade replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Match blade and check balance",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-079",
+    "category": "Air Cooler",
+    "name": "Installation & seasonal setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Position unit and check water/power connections",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-080",
+    "category": "UPS & Inverter",
+    "name": "UPS check-up & load test",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess backup, charging and load suitability",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-081",
+    "category": "UPS & Inverter",
+    "name": "Inverter fault diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect charging, output and alarms",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-082",
+    "category": "UPS & Inverter",
+    "name": "Battery health assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Check battery condition and backup performance",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-083",
+    "category": "UPS & Inverter",
+    "name": "UPS battery replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Match voltage, capacity and battery configuration",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-084",
+    "category": "UPS & Inverter",
+    "name": "Inverter battery replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Compatible battery fitting and terminal checks",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-085",
+    "category": "UPS & Inverter",
+    "name": "Terminal cleaning & maintenance",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect corrosion and connections",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-086",
+    "category": "UPS & Inverter",
+    "name": "PCB repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Specialist board assessment and approved repair",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-087",
+    "category": "UPS & Inverter",
+    "name": "Cooling fan replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Match fan and verify ventilation",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-088",
+    "category": "UPS & Inverter",
+    "name": "Installation & commissioning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Scope wiring and load capacity before quote",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-089",
+    "category": "UPS & Inverter",
+    "name": "Backup system preventive service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean, inspect and test agreed equipment",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-090",
+    "category": "UPS & Inverter",
+    "name": "Voltage stabiliser assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed extension; diagnose output and protection",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-091",
+    "category": "CCTV",
+    "name": "Site survey & system design",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess camera positions and recording needs",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-092",
+    "category": "CCTV",
+    "name": "Camera installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Per camera; cable and equipment separately specified",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-093",
+    "category": "CCTV",
+    "name": "DVR or NVR setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Configure recorder, channels and recording schedule",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-094",
+    "category": "CCTV",
+    "name": "Camera cleaning & alignment",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean lens/housing and adjust field of view",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-095",
+    "category": "CCTV",
+    "name": "No-video fault diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Check camera, cable, power and recorder",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-096",
+    "category": "CCTV",
+    "name": "Camera replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit compatible camera and test recording",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-097",
+    "category": "CCTV",
+    "name": "Cabling or connector repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Quote length, termination and access requirements",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-098",
+    "category": "CCTV",
+    "name": "Storage drive replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit surveillance drive and verify recording",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-099",
+    "category": "CCTV",
+    "name": "Remote viewing setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Configure authorised customer access",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-100",
+    "category": "CCTV",
+    "name": "Power supply replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Match supply rating and test cameras",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-101",
+    "category": "CCTV",
+    "name": "Recorder repair assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose DVR/NVR fault; quote repair",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-102",
+    "category": "CCTV",
+    "name": "System maintenance visit",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Check cameras, storage and playback",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-103",
+    "category": "Networking",
+    "name": "Wi-Fi troubleshooting",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose coverage, connection and local network issues",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-104",
+    "category": "Networking",
+    "name": "Router installation & setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Configure ISP settings and secure Wi-Fi",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-105",
+    "category": "Networking",
+    "name": "Mesh Wi-Fi setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Position and configure agreed number of nodes",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-106",
+    "category": "Networking",
+    "name": "Access point installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Mount and configure AP; cabling separately scoped",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-107",
+    "category": "Networking",
+    "name": "LAN point installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Quote cable length, termination and testing",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-108",
+    "category": "Networking",
+    "name": "RJ45 connector replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Terminate cable and test link",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-109",
+    "category": "Networking",
+    "name": "Network switch setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Connect/configure supported switch",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-110",
+    "category": "Networking",
+    "name": "Home network optimisation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Review channel, placement and device connectivity",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-111",
+    "category": "Networking",
+    "name": "Office network survey",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess LAN, Wi-Fi and equipment requirements",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-112",
+    "category": "Networking",
+    "name": "Network printer sharing",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Configure supported local network printing",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-113",
+    "category": "TV & Audio",
+    "name": "TV fault diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess picture, sound or power issue",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-114",
+    "category": "TV & Audio",
+    "name": "TV wall installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; mount type and wall suitability checked",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-115",
+    "category": "TV & Audio",
+    "name": "TV uninstallation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; remove and hand over safely",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-116",
+    "category": "TV & Audio",
+    "name": "Backlight replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Specialist quote by size and panel construction",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-117",
+    "category": "TV & Audio",
+    "name": "Power board repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose power circuit and compatible parts",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-118",
+    "category": "TV & Audio",
+    "name": "Mainboard repair or replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess board fault and model compatibility",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-119",
+    "category": "TV & Audio",
+    "name": "Display panel assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Quote feasibility; no blanket panel-repair promise",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-120",
+    "category": "TV & Audio",
+    "name": "Speaker or audio repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose internal audio path",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-121",
+    "category": "TV & Audio",
+    "name": "Smart TV setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; network, apps and input configuration",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-122",
+    "category": "TV & Audio",
+    "name": "Soundbar or amplifier assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed extension; specialist diagnosis",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-123",
+    "category": "Water Purifier",
+    "name": "Purifier check-up",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Check flow, leaks and operating condition",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-124",
+    "category": "Water Purifier",
+    "name": "Routine service & sanitisation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean accessible housing/tank as model permits",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-125",
+    "category": "Water Purifier",
+    "name": "Pre-filter replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Confirm filter size and media type",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-126",
+    "category": "Water Purifier",
+    "name": "Sediment & carbon filter replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Specify compatible filter set",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-127",
+    "category": "Water Purifier",
+    "name": "RO membrane replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Confirm compatibility; test output after fitting",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-128",
+    "category": "Water Purifier",
+    "name": "UV lamp replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Applicable UV models only",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-129",
+    "category": "Water Purifier",
+    "name": "Pump replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Check low flow or pressure fault",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-130",
+    "category": "Water Purifier",
+    "name": "SMPS or adapter replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Test electrical supply and fit compatible unit",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-131",
+    "category": "Water Purifier",
+    "name": "Leakage repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect tubes, fittings and housings",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-132",
+    "category": "Water Purifier",
+    "name": "Installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Use existing water/power points; extras separately scoped",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-133",
+    "category": "Water Purifier",
+    "name": "Uninstallation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Disconnect and prepare unit for movement",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-134",
+    "category": "Geyser",
+    "name": "Electric geyser check-up",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose heating, power or leakage issue",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-135",
+    "category": "Geyser",
+    "name": "Deep service & descaling",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean tank and element where model permits",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-136",
+    "category": "Geyser",
+    "name": "Heating element replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit compatible rating and test heating",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-137",
+    "category": "Geyser",
+    "name": "Thermostat replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose and replace temperature control",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-138",
+    "category": "Geyser",
+    "name": "Thermal cut-out replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Test and replace protection component",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-139",
+    "category": "Geyser",
+    "name": "Safety valve replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Compatible pressure-rated valve fitting",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-140",
+    "category": "Geyser",
+    "name": "Connection leakage repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect pipe joints and seals; tank damage quoted separately",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-141",
+    "category": "Geyser",
+    "name": "Electric geyser installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Existing points; pipe/accessories separately scoped",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-142",
+    "category": "Geyser",
+    "name": "Electric geyser uninstallation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Disconnect, drain and remove",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-143",
+    "category": "Geyser",
+    "name": "Anode rod replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Applicable storage models; inspect corrosion protection",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-144",
+    "category": "Kitchen Appliances",
+    "name": "Chimney check-up",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose suction, noise or power problem",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-145",
+    "category": "Kitchen Appliances",
+    "name": "Chimney basic cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean accessible filters and exterior",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-146",
+    "category": "Kitchen Appliances",
+    "name": "Chimney deep cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Degrease accessible internal components",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-147",
+    "category": "Kitchen Appliances",
+    "name": "Chimney motor repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess blower/motor fault and quote",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-148",
+    "category": "Kitchen Appliances",
+    "name": "Chimney control repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose switch, touch panel or PCB",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-149",
+    "category": "Kitchen Appliances",
+    "name": "Chimney installation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Define duct length, mounting and civil-work exclusions",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-150",
+    "category": "Kitchen Appliances",
+    "name": "Chimney uninstallation",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Remove unit; disposal not assumed",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-151",
+    "category": "Kitchen Appliances",
+    "name": "Microwave check-up",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Specialist diagnosis of heating, power or controls",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-152",
+    "category": "Kitchen Appliances",
+    "name": "Microwave heating repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose magnetron/high-voltage parts; safety tests",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-153",
+    "category": "Kitchen Appliances",
+    "name": "Microwave turntable repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess motor, coupler and tray mechanism",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-154",
+    "category": "Kitchen Appliances",
+    "name": "Microwave door switch repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Interlock diagnosis and post-repair checks",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-155",
+    "category": "Kitchen Appliances",
+    "name": "Induction cooktop diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed extension; heating/power fault assessment",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-156",
+    "category": "Kitchen Appliances",
+    "name": "Induction cooktop board repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed extension; specialist component diagnosis",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-157",
+    "category": "Kitchen Appliances",
+    "name": "Dishwasher diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed extension; assess wash, drain or power issue",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-158",
+    "category": "Kitchen Appliances",
+    "name": "Dishwasher cleaning service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed extension; clean filter and accessible spray arms",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-159",
+    "category": "Printer & Scanner",
+    "name": "Printer fault diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Check print quality, paper feed and errors",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-160",
+    "category": "Printer & Scanner",
+    "name": "Printer cleaning service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Clean accessible rollers and internal dust",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-161",
+    "category": "Printer & Scanner",
+    "name": "Printhead cleaning",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Model-approved cleaning; no restoration guarantee",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-162",
+    "category": "Printer & Scanner",
+    "name": "Ink or toner refill",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Only refillable supported cartridges; consumables specified",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-163",
+    "category": "Printer & Scanner",
+    "name": "Cartridge replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Fit compatible cartridge and test printing",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-164",
+    "category": "Printer & Scanner",
+    "name": "Paper jam & feed repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect rollers, guides and paper path",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-165",
+    "category": "Printer & Scanner",
+    "name": "Pickup roller replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Replace worn compatible feed roller",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-166",
+    "category": "Printer & Scanner",
+    "name": "Fuser repair or replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Laser models; inspect heat/fixing fault",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-167",
+    "category": "Printer & Scanner",
+    "name": "USB or Wi-Fi printer setup",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Install drivers and verify print/scan",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-168",
+    "category": "Printer & Scanner",
+    "name": "Scanner fault assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect scan mechanism and connectivity",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-169",
+    "category": "Mobile & Tablet",
+    "name": "Device diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Assess hardware and charging faults",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-170",
+    "category": "Mobile & Tablet",
+    "name": "Screen replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Quote by exact model and display grade",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-171",
+    "category": "Mobile & Tablet",
+    "name": "Battery replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Compatible battery; test charge and performance",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-172",
+    "category": "Mobile & Tablet",
+    "name": "Charging port repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Inspect port and charging path",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-173",
+    "category": "Mobile & Tablet",
+    "name": "Speaker or microphone repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose audio fault and replace module as required",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-174",
+    "category": "Mobile & Tablet",
+    "name": "Camera replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Identify affected module and compatibility",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-175",
+    "category": "Mobile & Tablet",
+    "name": "Back panel replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Match model; sealing limitations disclosed",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-176",
+    "category": "Mobile & Tablet",
+    "name": "Power or volume button repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Diagnose flex/button assembly",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-177",
+    "category": "Mobile & Tablet",
+    "name": "Liquid-damage assessment",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Specialist inspection; no recovery guarantee",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-178",
+    "category": "Mobile & Tablet",
+    "name": "Software setup & data transfer",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; consent required; no account-lock bypass",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-179",
+    "category": "Small Appliances",
+    "name": "Mixer grinder diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; assess motor, power and coupling",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-180",
+    "category": "Small Appliances",
+    "name": "Mixer jar or coupler replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; match jar, seal and drive coupling",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-181",
+    "category": "Small Appliances",
+    "name": "Fan cleaning & service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; ceiling/table/exhaust model specified",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-182",
+    "category": "Small Appliances",
+    "name": "Fan capacitor or motor repair",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; diagnose starting and speed issue",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-183",
+    "category": "Small Appliances",
+    "name": "Electric iron diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; inspect heating and thermostat",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-184",
+    "category": "Small Appliances",
+    "name": "Kettle or rice cooker diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; inspect element, controls and wiring",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-185",
+    "category": "Small Appliances",
+    "name": "Vacuum cleaner service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; clean filters and inspect suction",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-186",
+    "category": "Small Appliances",
+    "name": "Air purifier filter replacement",
+    "websitePrice": null,
+    "pricingBasis": "Quote after inspection",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; match filter and reset indicator",
+    "partsAndConsumables": "Parts extra unless expressly bundled"
+  },
+  {
+    "id": "CC-187",
+    "category": "Small Appliances",
+    "name": "Water dispenser diagnosis",
+    "websitePrice": null,
+    "pricingBasis": "Inspection fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; inspect cooling/heating and leaks",
+    "partsAndConsumables": "Define consumables before publishing"
+  },
+  {
+    "id": "CC-188",
+    "category": "Small Appliances",
+    "name": "Water cooler service",
+    "websitePrice": null,
+    "pricingBasis": "Fixed service fee",
+    "chargingUnit": "Per device / job",
+    "scope": "Proposed scope; inspect refrigeration and water path",
+    "partsAndConsumables": "Define consumables before publishing"
+  }
+]

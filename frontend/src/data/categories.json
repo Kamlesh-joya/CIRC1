@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Laptop",
+    "slug": "laptop",
+    "icon": "Laptop",
+    "image": "/assets/images/cat-laptop.jpg",
+    "tagline": "Screen, battery, motherboard & thermal servicing",
+    "serviceCount": 18
+  },
+  {
+    "name": "Desktop PC",
+    "slug": "desktop-pc",
+    "icon": "Monitor",
+    "image": "/assets/images/cat-pc.jpg",
+    "tagline": "Custom assembly, upgrades, PSU & troubleshooting",
+    "serviceCount": 12
+  },
+  {
+    "name": "AC",
+    "slug": "ac",
+    "icon": "Wind",
+    "image": "/assets/images/cat-ac.png",
+    "tagline": "Split & window deep cleaning, gas refill & installation",
+    "serviceCount": 15
+  },
+  {
+    "name": "Mobile & Tablet",
+    "slug": "mobile-tablet",
+    "icon": "Smartphone",
+    "image": "/assets/images/cat-mobile.jpg",
+    "tagline": "Screen, battery, charging port & diagnostic checks",
+    "serviceCount": 10
+  },
+  {
+    "name": "CCTV",
+    "slug": "cctv",
+    "icon": "Camera",
+    "image": "/assets/images/cat-cctv.jpg",
+    "tagline": "Camera installation, DVR/NVR setup & cabling",
+    "serviceCount": 12
+  },
+  {
+    "name": "Air Cooler",
+    "slug": "air-cooler",
+    "icon": "Fan",
+    "image": "/assets/images/cat-cooler.jpg",
+    "tagline": "Seasonal setup, pump & cooling pad replacement",
+    "serviceCount": 10
+  },
+  {
+    "name": "Water Purifier",
+    "slug": "water-purifier",
+    "icon": "Droplets",
+    "image": "/assets/images/cat-ro.jpg",
+    "tagline": "RO membrane, filter replacement & sanitisation",
+    "serviceCount": 11
+  },
+  {
+    "name": "TV & Audio",
+    "slug": "tv-audio",
+    "icon": "Tv",
+    "image": "/assets/images/cat-tv.jpg",
+    "tagline": "Wall mounting, backlight repair & board diagnosis",
+    "serviceCount": 10
+  },
+  {
+    "name": "Geyser",
+    "slug": "geyser",
+    "icon": "Flame",
+    "image": "/assets/images/cat-geyser.jpg",
+    "tagline": "Heating element, thermostat & descaling service",
+    "serviceCount": 10
+  },
+  {
+    "name": "Kitchen Appliances",
+    "slug": "kitchen-appliances",
+    "icon": "Utensils",
+    "image": "/assets/images/cat-kitchen.jpg",
+    "tagline": "Chimney cleaning, microwave & induction repairs",
+    "serviceCount": 15
+  },
+  {
+    "name": "Refrigerator",
+    "slug": "refrigerator",
+    "icon": "Refrigerator",
+    "image": "/assets/images/cat-fridge.jpg",
+    "tagline": "Cooling diagnosis, compressor & gasket repairs",
+    "serviceCount": 12
+  },
+  {
+    "name": "Washing Machine",
+    "slug": "washing-machine",
+    "icon": "WashingMachine",
+    "image": "/assets/images/cat-washing.jpg",
+    "tagline": "Drum, pump, motor & top/front-load deep cleaning",
+    "serviceCount": 12
+  },
+  {
+    "name": "Networking",
+    "slug": "networking",
+    "icon": "Wifi",
+    "image": "/assets/images/cat-network.jpg",
+    "tagline": "Wi-Fi optimisation, router setup & LAN points",
+    "serviceCount": 10
+  },
+  {
+    "name": "Printer & Scanner",
+    "slug": "printer-scanner",
+    "icon": "Printer",
+    "image": "/assets/images/cat-printer.jpg",
+    "tagline": "Head cleaning, roller replacement & ink refill",
+    "serviceCount": 10
+  },
+  {
+    "name": "UPS & Inverter",
+    "slug": "ups-inverter",
+    "icon": "BatteryCharging",
+    "image": "/assets/images/cat-ups.jpg",
+    "tagline": "Battery health test, load check & PCB repair",
+    "serviceCount": 11
+  },
+  {
+    "name": "Small Appliances",
+    "slug": "small-appliances",
+    "icon": "Sparkles",
+    "image": "/assets/images/cat-small.jpg",
+    "tagline": "Mixer grinder, fans, electric irons & air purifiers",
+    "serviceCount": 10
+  }
+]

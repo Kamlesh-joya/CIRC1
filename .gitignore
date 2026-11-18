@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Production build outputs & archives
+frontend/dist/
+dist/
+*.zip
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+
+# User data and enquiries (keep empty on fresh clone)
+backend/data/users.json
+backend/data/enquiries.json
+backend/data/*.tmp
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
