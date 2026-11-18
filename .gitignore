@@ -2,9 +2,7 @@
 node_modules/
 frontend/node_modules/
 
-# Production build outputs & archives
-frontend/dist/
-dist/
+# Production archives
 *.zip
 
 # Local Environment Variables & Secrets
