@@ -9,12 +9,18 @@ const DATA_DIR = process.env.DATA_DIR
   ? path.resolve(process.env.DATA_DIR)
   : path.join(__dirname, '../data');
 
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch (e) {
+  console.warn('[CatalogModel] Notice on DATA_DIR init:', e.message);
 }
 
 const SERVICES_FILE = path.join(DATA_DIR, 'services.json');
 const CATEGORIES_FILE = path.join(DATA_DIR, 'categories.json');
+const FALLBACK_SERVICES_FILE = path.join(__dirname, '../data/services.json');
+const FALLBACK_CATEGORIES_FILE = path.join(__dirname, '../data/categories.json');
 
 export class CatalogModel {
   static _cachedServices = null;
@@ -22,9 +28,16 @@ export class CatalogModel {
 
   static getServices() {
     if (!this._cachedServices) {
-      if (fs.existsSync(SERVICES_FILE)) {
-        this._cachedServices = JSON.parse(fs.readFileSync(SERVICES_FILE, 'utf-8'));
-      } else {
+      try {
+        if (fs.existsSync(SERVICES_FILE)) {
+          this._cachedServices = JSON.parse(fs.readFileSync(SERVICES_FILE, 'utf-8'));
+        } else if (fs.existsSync(FALLBACK_SERVICES_FILE)) {
+          this._cachedServices = JSON.parse(fs.readFileSync(FALLBACK_SERVICES_FILE, 'utf-8'));
+        } else {
+          this._cachedServices = [];
+        }
+      } catch (err) {
+        console.error('[CatalogModel] Error reading services:', err.message);
         this._cachedServices = [];
       }
     }
@@ -33,9 +46,16 @@ export class CatalogModel {
 
   static getCategories() {
     if (!this._cachedCategories) {
-      if (fs.existsSync(CATEGORIES_FILE)) {
-        this._cachedCategories = JSON.parse(fs.readFileSync(CATEGORIES_FILE, 'utf-8'));
-      } else {
+      try {
+        if (fs.existsSync(CATEGORIES_FILE)) {
+          this._cachedCategories = JSON.parse(fs.readFileSync(CATEGORIES_FILE, 'utf-8'));
+        } else if (fs.existsSync(FALLBACK_CATEGORIES_FILE)) {
+          this._cachedCategories = JSON.parse(fs.readFileSync(FALLBACK_CATEGORIES_FILE, 'utf-8'));
+        } else {
+          this._cachedCategories = [];
+        }
+      } catch (err) {
+        console.error('[CatalogModel] Error reading categories:', err.message);
         this._cachedCategories = [];
       }
     }

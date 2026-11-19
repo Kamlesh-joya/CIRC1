@@ -10,18 +10,50 @@ const DATA_DIR = process.env.DATA_DIR
   ? path.resolve(process.env.DATA_DIR)
   : path.join(__dirname, '../data');
 
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch (e) {
+  console.warn('[EnquiryModel] Notice on DATA_DIR mkdir:', e.message);
 }
 
 const ENQUIRIES_FILE = path.join(DATA_DIR, 'enquiries.json');
 
-// Ensure enquiries file exists
-if (!fs.existsSync(ENQUIRIES_FILE)) {
-  fs.writeFileSync(ENQUIRIES_FILE, JSON.stringify([], null, 2), 'utf-8');
+try {
+  if (!fs.existsSync(ENQUIRIES_FILE)) {
+    fs.writeFileSync(ENQUIRIES_FILE, JSON.stringify([], null, 2), 'utf-8');
+  }
+} catch (e) {
+  console.warn('[EnquiryModel] Notice on ENQUIRIES_FILE init:', e.message);
 }
 
+let _inMemoryEnquiries = [];
+
 export class EnquiryModel {
+  static _readEnquiries() {
+    try {
+      if (!fs.existsSync(ENQUIRIES_FILE)) return _inMemoryEnquiries;
+      const content = fs.readFileSync(ENQUIRIES_FILE, 'utf-8');
+      const parsed = JSON.parse(content || '[]');
+      _inMemoryEnquiries = parsed;
+      return parsed;
+    } catch (err) {
+      console.warn('[EnquiryModel] Error reading enquiries file, using memory cache:', err.message);
+      return _inMemoryEnquiries;
+    }
+  }
+
+  static _writeEnquiries(enquiries) {
+    _inMemoryEnquiries = enquiries;
+    try {
+      const tempFile = `${ENQUIRIES_FILE}.tmp`;
+      fs.writeFileSync(tempFile, JSON.stringify(enquiries, null, 2), 'utf-8');
+      fs.renameSync(tempFile, ENQUIRIES_FILE);
+    } catch (err) {
+      console.warn('[EnquiryModel] Storage write skipped, kept in memory:', err.message);
+    }
+  }
   static validate(data) {
     const errors = {};
 

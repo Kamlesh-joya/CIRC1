@@ -20,7 +20,7 @@ export const app = express();
 
 // Middlewares
 app.use(cors({
-  origin: process.env.APP_ORIGIN ? [process.env.APP_ORIGIN, 'https://circuitcare.co.in', true] : true,
+  origin: true,
   credentials: true
 }));
 app.use(express.json());
@@ -30,12 +30,14 @@ app.use(authMiddleware);
 
 // Dynamic frontend dist path resolution for both local and Hostinger production
 const possibleDistPaths = [
+  path.resolve('dist'),
+  path.resolve('frontend/dist'),
   path.join(__dirname, '../dist'),
   path.join(__dirname, 'dist'),
   path.join(__dirname, '../frontend/dist'),
   path.join(__dirname, 'frontend/dist')
 ];
-const frontendDist = possibleDistPaths.find((p) => fs.existsSync(p)) || path.join(__dirname, '../frontend/dist');
+const frontendDist = possibleDistPaths.find((p) => fs.existsSync(p)) || path.resolve('dist');
 
 // Serve static build assets
 app.use(express.static(frontendDist));
@@ -93,8 +95,8 @@ app.get('*', (req, res, next) => {
 app.use(errorHandler);
 
 // Helper to start HTTP listener on 0.0.0.0 for Hostinger / cloud containers
-export function startServer(port = process.env.PORT || APP_CONFIG.port) {
-  const serverPort = Number(port) || 5000;
+export function startServer(port = process.env.PORT || 3000) {
+  const serverPort = Number(port) || 3000;
   return app.listen(serverPort, '0.0.0.0', () => {
     console.log(`===============================================`);
     console.log(`⚡ CircuitCare Jaipur Server running on 0.0.0.0:${serverPort}`);

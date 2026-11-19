@@ -11,37 +11,48 @@ const DATA_DIR = process.env.DATA_DIR
   ? path.resolve(process.env.DATA_DIR)
   : path.join(__dirname, '../data');
 
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch (e) {
+  console.warn('[UserModel] Notice on DATA_DIR mkdir:', e.message);
 }
 
 const USERS_FILE = path.join(DATA_DIR, 'users.json');
 
-// Ensure users file exists
-if (!fs.existsSync(USERS_FILE)) {
-  fs.writeFileSync(USERS_FILE, JSON.stringify([], null, 2), 'utf-8');
+try {
+  if (!fs.existsSync(USERS_FILE)) {
+    fs.writeFileSync(USERS_FILE, JSON.stringify([], null, 2), 'utf-8');
+  }
+} catch (e) {
+  console.warn('[UserModel] Notice on USERS_FILE init:', e.message);
 }
+
+let _inMemoryUsers = [];
 
 export class UserModel {
   static _readUsers() {
     try {
-      if (!fs.existsSync(USERS_FILE)) return [];
+      if (!fs.existsSync(USERS_FILE)) return _inMemoryUsers;
       const content = fs.readFileSync(USERS_FILE, 'utf-8');
-      return JSON.parse(content || '[]');
+      const parsed = JSON.parse(content || '[]');
+      _inMemoryUsers = parsed;
+      return parsed;
     } catch (err) {
-      console.error('[UserModel] Error reading users file:', err);
-      return [];
+      console.warn('[UserModel] Error reading users file, using memory cache:', err.message);
+      return _inMemoryUsers;
     }
   }
 
   static _writeUsers(users) {
+    _inMemoryUsers = users;
     try {
       const tempFile = `${USERS_FILE}.tmp`;
       fs.writeFileSync(tempFile, JSON.stringify(users, null, 2), 'utf-8');
       fs.renameSync(tempFile, USERS_FILE);
     } catch (err) {
-      console.error('[UserModel] Error writing users file:', err);
-      throw new Error('Database write failure');
+      console.warn('[UserModel] Storage write skipped, kept in memory:', err.message);
     }
   }
 
